@@ -6,22 +6,6 @@
 # For other scenarios, a new PR will be opened if any images are compressed.
 name: Compress images
 on:
-  pull_request:
-    paths:
-      - "**.jpg"
-      - "**.jpeg"
-      - "**.png"
-      - "**.webp"
-      - "**.gif"
-  push:
-    branches:
-      - main
-    paths:
-      - "**.jpg"
-      - "**.jpeg"
-      - "**.png"
-      - "**.webp"
-      - "**.gif"
   workflow_dispatch:
   schedule:
     - cron: "00 23 * * 0"
