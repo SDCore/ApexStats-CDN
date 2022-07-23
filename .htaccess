@@ -1,6 +1,6 @@
 RewriteEngine on
 RewriteBase /
 
-ErrorDocument 404 "<h1>Mayday! Crashing and burning over here!.</h1><br />The requested resource could not be found."
+ErrorDocument 404 "<span style='font-size: 25pt;'>Mayday! Crashing and burning over here!</h1><br />The requested resource could not be found."
 
 RedirectMatch 404 /\.git
