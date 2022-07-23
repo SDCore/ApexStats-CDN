@@ -1,4 +1,5 @@
 RewriteEngine on
+RewriteBase /
 
 ErrorDocument 404 "test"
 
