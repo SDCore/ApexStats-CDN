@@ -1,6 +1,6 @@
 RewriteEngine on
 RewriteBase /
 
-ErrorDocument 404 "test"
+ErrorDocument 404 "<h1>The requested resource is not available.</h1>"
 
 RedirectMatch 404 /\.git
